@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Automation Suite">
+  <test thread-count="5" name="BestBuyTest">
+    <classes>
+      <class name="testCaseBestBuy.TC_02_ValidateUrlIsNotBroken"/>
+      <class name="testCaseBestBuy.TC_03_CreatAccountFunctionality"/>
+      <class name="testCaseBestBuy.TC_04_SignInFunctionality"/>
+      <class name="testCaseBestBuy.TC_01_navgatingToBestBestApp"/>
+    </classes>
+  </test>
+</suite>
